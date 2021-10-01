@@ -108,6 +108,7 @@ class Algorithm:
     def BFS_levelOrder(self,root):
         if root is None: #Base case if the root node itself is None
             return 0
+        # height = 0 --> for finding the height without recursive approach
         q = [root] #creating a list with root node in it and we will treat it as queue 
         LevelOrder = [] #This is the answer which we gonna return 
         while(len(q)>0):
@@ -118,7 +119,8 @@ class Algorithm:
                     q.append(x.left)
                 if x.right is not None: #checking if right child node is not None and then adding it to queue
                     q.append(x.right)
-        return LevelOrder
+            # height += 1 --> incrementing the height 
+        return LevelOrder # return height
         #we can count the level here by assigning a variable count and incrementing it by 1 at the end every single time the while loop runs 
         #Thus basically the answer to maximum Height/Depth is How many times the while loop runs
         #but for deeper understanding we will use recursive code
