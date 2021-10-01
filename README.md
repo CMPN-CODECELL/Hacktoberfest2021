@@ -1,22 +1,28 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 [![Open Source Helpers](https://www.codetriage.com/freecodecamp/freecodecamp/badges/users.svg)](https://www.codetriage.com/freecodecamp/freecodecamp)
-[![Updated Badge](https://badges.pufler.dev/updated/CMPN-CODECELL/Hacktoberfest2020?color=purple)](https://badges.pufler.dev)
-[![Visits Badge](https://badges.pufler.dev/visits/CMPN-CODECELL/Hacktoberfest2020?color=red)](https://badges.pufler.dev)
-[![Created Badge](https://badges.pufler.dev/created/CMPN-CODECELL/Hacktoberfest2020?color=blue)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/updated/CMPN-CODECELL/Hacktoberfest2021?color=purple)](https://badges.pufler.dev)
+[![Visits Badge](https://badges.pufler.dev/visits/CMPN-CODECELL/Hacktoberfest2021?color=red)](https://badges.pufler.dev)
+[![Created Badge](https://badges.pufler.dev/created/CMPN-CODECELL/Hacktoberfest2021?color=blue)](https://badges.pufler.dev)
 <a href="https://github.com/CMPN-CODECELL/Hacktoberfest2020" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/badges/shields"></a>
 ![Follow](https://img.shields.io/github/followers/CMPN-CODECELL?label=Follow&style=social)
-![Forks](https://img.shields.io/github/forks/CMPN-CODECELL/Hacktoberfest2020?label=Fork&style=social)
-![Watch](https://img.shields.io/github/watchers/CMPN-CODECELL/Hacktoberfest2020?label=Watch&style=social)
+![Forks](https://img.shields.io/github/forks/CMPN-CODECELL/Hacktoberfest2021?label=Fork&style=social)
+![Watch](https://img.shields.io/github/watchers/CMPN-CODECELL/Hacktoberfest2021?label=Watch&style=social)
 
 # Hacktoberfest 2021
 ## :wave:
 ## Welcome
 A guide to help you contribute to Hacktoberfest 2021 and to get you started towards Open Source Contribution 😉 
 ## How to contribute
-
+    
 Check out our [Contributing Documentation](https://github.com/CMPN-CODECELL/Hacktoberfest2021/blob/main/CONTRIBUTING.md) 
+
+### Note
+
+1. First create issue for the task which you would like to contribute to by explaining your approach in it.
+2. Project maintatiners will assign the issue to you if it's worthy and not repeated.
+3. While creating pull request mention the issue number in it.
 
 ## Guidelines
 
@@ -29,30 +35,6 @@ You have to make 4 pull requests on any valid repositories. Once you make the pu
 
 ## Prizes
 
-Make 4 valid Pull requests in the month of October to be elligible for a limited edition T-shirt or plant a tree :innocent:. The first 70,000 winners are elligible for the prizes
-
-## Special Prizes
-
-Top 3 contributors of VESIT will get some special prizes from our local event sponsor(GitHub).
-
-## Hall of Fame 
-<!---
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/0)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/0)
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/1)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/1)
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/2)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/2)
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/3)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/3)
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/4)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/4)
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/5)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/5)
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/6)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/6)
-[![](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/images/7)](https://sourcerer.io/fame/thewires2/CMPN-CODECELL/Hacktoberfest2020/links/7)
--->
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/0)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/0)
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/1)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/1)
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/2)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/2)
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/3)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/3)
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/4)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/4)
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/5)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/5)
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/6)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/6)
-[![](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/images/7)](https://sourcerer.io/fame/AjayKhalsa/CMPN-CODECELL/Hacktoberfest2020/links/7)
+Make 4 valid Pull requests in the month of October to be elligible for a limited edition T-shirt or plant a tree :innocent:. The first 50,000 winners are elligible for the prizes.
 
 ### If this repository helped you in anyway, please leave a star :star: on our repository :blush:
