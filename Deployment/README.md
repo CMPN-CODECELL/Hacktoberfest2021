@@ -139,3 +139,25 @@ Now you’ll see that Heroku will create some oddly named instance (don’t worr
 Example:
 
 Creating app... done, warm-eyrie-XXXX
+
+### Step 5: Final deployment procedure
+
+So Heroku created an app called ‘warm-eyrie’ for me. Not sure why, but I’ll take it. Now
+all that’s remaining is to move the code across, so in our project folder we run the
+following commands:
+
+```bash
+git add .
+git commit -m "Enter your message here"
+git push heroku master
+```
+
+Once it’s merged, the Heroku application will start downloading and installing
+everything on the server side. This takes a couple of minutes but if all is good, then you
+should something like:
+
+```bash
+remote: Verifying deploy... done.
+```
+
+Your job is done! If you copy the url it gives you in the command line into your browser, you’ll see that you can now run your application online. You can even check it on your mobile phone, it’s perfect!
