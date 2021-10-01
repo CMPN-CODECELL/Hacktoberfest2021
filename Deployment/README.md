@@ -95,3 +95,47 @@ nano Procfile
 (Procfile here is case sensitive - type it as it is mentioned)
 
 Now insert the following piece of code in the Procfile file:
+
+```bash
+web: sh setup.sh && streamlit run [name-of-app].py
+```
+
+**Note:** [name-of-app] being the name of your project's main.py file
+
+### Step 4: Creating a profile of Heroku
+
+Heroku builds systems using Git and it’s pretty easy to get set up. Git is a version control system and runs as default on a lot of operating systems.
+Check if you have it **(if yes then skip this step). If not, install it.**
+
+Open terminal in your project folder and run the following commands :
+
+```bash
+git init
+```
+
+This initialises a git repository in your project folder and you should see something like the following print out:
+
+```bash
+Initialized empty Git repository in /Users/…
+```
+
+(If you are doing this for the first time make sure you visit - [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli) and create your account there)
+
+Once you’ve downloaded the Heroku CLI , run the following login command:
+
+```bash
+heroku login
+```
+
+This opens up a browser window, from which you can log in.
+Once you’re in, it’s time to create your cloud instance. Run the following command
+
+```bash
+C:\Users...> heroku create
+```
+
+Now you’ll see that Heroku will create some oddly named instance (don’t worry, it’s just how it is):
+
+Example:
+
+Creating app... done, warm-eyrie-XXXX
