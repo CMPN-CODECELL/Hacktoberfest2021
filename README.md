@@ -12,7 +12,7 @@
 
 # Hacktoberfest 2021
 
-![Hacktoberfest 2021](Hacktober-wallpaper.png)
+![banner-dark](https://user-images.githubusercontent.com/76769697/135612006-c154ebf3-93d7-45ad-8222-d8bcf5f85b7c.png)
 
 ## :wave:
 ## Welcome
