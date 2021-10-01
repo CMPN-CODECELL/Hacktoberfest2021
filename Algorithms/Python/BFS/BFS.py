@@ -1,5 +1,5 @@
 #BFS(Breadth-First-Search) Algorithm for Binary tree in Python
-
+# Maximum Height/Depth will also be found 
 #Binary Tree is actually a Data Structure but the traversal technique(BFS) we will use on it is an Algorithm
 
 #first we will start off by actually creating a Basic Binary tree
@@ -66,10 +66,12 @@ this input will look like =>    1
 #Example Output1:
 '''
 1 3 2
+Maximum Height = 2
 
 ***NOTE this line and below this line is not the part of output
 we first traverse the starting node i.e node(1), then we move to the next level which consists of node(3) and node(2)
 when we move from left to right, since after this all the child nodes are none we don't move forward with the Algorithm
+Height is 2 as it contains 2 levels
 '''
 
 
@@ -90,6 +92,7 @@ this input will look like =>        7
 #Example Output@:
 '''
 7 12 15 20 30 
+Maximum Height = 4
 
 ***NOTE this line and below this line is not the part of output
 we first traverse from left to right at every level considering the root node to be the initial/start level
@@ -97,6 +100,7 @@ node(7) -> level 1
 node(12),node(15) -> level 2 from left to right
 node(20) -> level 3 from left to right
 node(30) -> level 4 
+Height is 4 as it contains 4 levels
 '''
 
 #BFS Algorithm
@@ -115,6 +119,16 @@ class Algorithm:
                 if x.right is not None: #checking if right child node is not None and then adding it to queue
                     q.append(x.right)
         return LevelOrder
+        #we can count the level here by assigning a variable count and incrementing it by 1 at the end every single time the while loop runs 
+        #Thus basically the answer to maximum Height/Depth is How many times the while loop runs
+        #but for deeper understanding we will use recursive code
+    def MaxHeight(self,root):
+        if root is None:
+            return 0 #considering the leaf node's left and right 
+        lh = self.MaxHeight(root.left) #find the maximum height at left of a node
+        rh = self.MaxHeight(root.right) #finding the maximum height at the right of a node
+        return 1+max(lh,rh) #returning the maximum height to either the left or right and adding 1 considering it's own level
+        #make a dry run for better understanding
 
 #input code for taking input from the user
 array = input().split() #taking input in the form of string and splitting it to a list
@@ -122,7 +136,10 @@ root = Build_BT(array) #passing the list to the function to build the Binary Tre
 ans = Algorithm().BFS_levelOrder(root) #This BFS_levelOrder is function created seperately in Algorithm class
 # ans will consist of list of data of level order traversal
 print(*ans)
+# The Time complexity of this Algorithm(BFS Traversal) is O(N) where N is the number of nodes as we are traversing every node once.
+#The Space Complexity of this Algorithm(BFS Traversal)is O(N) where N is the number of nodes as we are storing every node once.
 
-# The Time complexity of this Algorithm is O(N) where N is the number of nodes as we are traversing every node once.
-#The Space Complexity of this Algorithm is O(N) where N is the number of nodes as we are storing every node once.
-
+Maxheight = Algorithm().MaxHeight(root)
+print("Maximum Height = "+str(Maxheight))
+# The Time complexity of this Algorithm(Maximum Height/Depth of a Binary Tree) is O(N) where N is the number of nodes.
+#The Space Complexity of this Algorithm(Maximum Height/Depth of a Binary Tree) is O(N) where N is the number of nodes.
