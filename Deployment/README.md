@@ -161,3 +161,27 @@ remote: Verifying deploy... done.
 ```
 
 Your job is done! If you copy the url it gives you in the command line into your browser, you’ll see that you can now run your application online. You can even check it on your mobile phone, it’s perfect!
+
+### Step 6: Updation of code in future
+
+If you want to update your code, you can just update it as normal, then do the following
+again:
+
+```bash
+git add .
+git commit -m "Enter your message here"
+git push heroku master
+heroku ps:scale web=1
+```
+# Renaming the App from the Heroku Dashboard
+
+If you use the Heroku CLI to rename an app from inside its associated Git repository, your local Heroku remote is updated automatically. **However, other instances of the repository must update the remote’s details manually.**
+
+You can run the following commands to update the remote’s details in other repository instances:
+
+```bash
+$ git remote rm heroku
+$ heroku git:remote -a newname
+```
+
+Replace `newname` with the new name of the app, as specified in the `rename` command.
