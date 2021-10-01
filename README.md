@@ -4,7 +4,7 @@
 [![Updated Badge](https://badges.pufler.dev/updated/CMPN-CODECELL/Hacktoberfest2021?color=purple)](https://badges.pufler.dev)
 [![Visits Badge](https://badges.pufler.dev/visits/CMPN-CODECELL/Hacktoberfest2021?color=red)](https://badges.pufler.dev)
 [![Created Badge](https://badges.pufler.dev/created/CMPN-CODECELL/Hacktoberfest2021?color=blue)](https://badges.pufler.dev)
-<a href="https://github.com/CMPN-CODECELL/Hacktoberfest2020" alt="Contributors">
+<a href="https://github.com/CMPN-CODECELL/Hacktoberfest2021" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/badges/shields"></a>
 ![Follow](https://img.shields.io/github/followers/CMPN-CODECELL?label=Follow&style=social)
 ![Forks](https://img.shields.io/github/forks/CMPN-CODECELL/Hacktoberfest2021?label=Fork&style=social)
