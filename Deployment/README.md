@@ -45,3 +45,40 @@ nano setup.sh
 ```
 
 Now you will see a [setup.sh](http://setup.sh/) file has been opened. Copy one of the codes that you like and paste it in the [setup.sh](http://setup.sh/) file
+
+**[setup.sh](http://setup.sh/) (without email verification - preferrable)**
+
+```
+mkdir -p ~/.streamlit/
+
+echo "
+
+[server]\\n
+
+headless = true\\n
+
+enableCORS=false\\n
+
+port = $PORT\\n
+
+\\n
+
+" > ~/.streamlit/config.toml
+
+```
+
+**[setup.sh](http://setup.sh/) (with email verification - not preferrable)**
+
+```
+mkdir -p ~/.streamlit/
+echo "\\
+[general]\\n\\
+email = \\"your@domain.com\\"\\n\\
+" > ~/.streamlit/credentials.toml
+echo "\\
+[server]\\n\\
+headless = true\\n\\
+enableCORS=false\\n\\
+port = $PORT\\n\\
+
+```
