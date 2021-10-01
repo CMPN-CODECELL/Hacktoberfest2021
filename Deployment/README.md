@@ -82,3 +82,16 @@ enableCORS=false\\n\\
 port = $PORT\\n\\
 
 ```
+**Procfile**
+
+Again, make sure that your terminal is in your project folder.
+
+Type the command:
+
+```bash
+nano Procfile  
+```
+
+(Procfile here is case sensitive - type it as it is mentioned)
+
+Now insert the following piece of code in the Procfile file:
