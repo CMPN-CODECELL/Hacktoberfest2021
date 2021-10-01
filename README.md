@@ -11,6 +11,9 @@
 ![Watch](https://img.shields.io/github/watchers/CMPN-CODECELL/Hacktoberfest2021?label=Watch&style=social)
 
 # Hacktoberfest 2021
+
+![Hacktoberfest 2021](Hacktober-wallpaper.png)
+
 ## :wave:
 ## Welcome
 A guide to help you contribute to Hacktoberfest 2021 and to get you started towards Open Source Contribution 😉 
