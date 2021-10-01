@@ -21,3 +21,27 @@ pipreqs <directory-path>
 ```
 
 The requirements file would contain the names of the libraries and their versions.
+
+**Example:**
+
+- altair==4.1.0
+- streamlit==0.64.0
+- matplotlib==3.2.2
+- pandas==1.0.5
+- plotly==4.9.0
+- numpy==1.18.5
+- dash==1.17.0
+
+### Step 3: Creation of setup.sh and Procfile
+
+The setup.sh file contains some commands to set the problem on the Heroku side, so create a setup.sh file (you can use the nano command) and save the following in that file (change the email in the middle of the file to your correct email).
+
+Make sure that your terminal is in your project folder.
+
+Type the command
+
+```bash
+nano setup.sh
+```
+
+Now you will see a [setup.sh](http://setup.sh/) file has been opened. Copy one of the codes that you like and paste it in the [setup.sh](http://setup.sh/) file
