@@ -1,3 +1,4 @@
-## Description
-
-Create a responsive navbar using your favourite libraries.
+Install all the dependencies by running
+```
+npm install
+```
