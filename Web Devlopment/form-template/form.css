@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+:root {
+    --color: #c272cf;
+}
+html{
+    font-size: 62.5%;
+
+}
+body {
+    height: 100vh;
+   background: url("./assets/bgimg.png") no-repeat;
+   background-size: 100% 25% ;
+   background-position: top;
+}
+.controls {
+    position: absolute;
+    top: 10rem;
+    right: 20%;
+    height: 6rem;
+    width: 15rem;
+    overflow: hidden;
+    color: white;
+}
+.controls h1 {
+    /* height: 6rem; */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5rem;
+    border: 1px solid white;
+    /* text-align: center;
+    vertical-align: middle  ; */
+    padding: 1rem 2rem;
+    margin-top: 0.8rem;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 19rem;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    height: 50rem;
+    width: 33rem;
+    overflow-x: hidden;
+}
+form {
+    height: 45rem;
+    width: 30rem;
+    display: grid;
+    margin-left: 2rem;
+    place-items: center;
+    /* padding: 1rem; */
+    border: 1px solid #ccc;
+    box-shadow: 9px 9px 0 var(--color);
+    border-radius: 1rem;
+    background: #fff;
+}
+form i {
+    height: 6rem;
+    width: 6rem;
+    font-size: 3rem;
+    color: var(--color);
+    border: 1rem solid #fff;
+    text-align: center;
+}
+form h1 {
+    font-size: 2rem;
+    color: #333;
+
+}
+form .box {
+    height: 3rem;
+    width: 80%;
+    padding: 0 2rem;
+    outline: none;
+    border: none;
+    background-color: #e6e6e6;
+    border-radius: 5rem;
+}
+form input[type="submit"]{
+    margin-left: -11rem;
+    border: none;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    height: 3rem;
+    width: 8rem;
+}
+form input[type="submit"]:hover {
+    background-color: var(--color);
+}
+.container .images {
+    width: 36rem;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+.container .images > img {
+    height: 35rem;
+    margin-top: 1rem;
+    /* margin-left: -18rem; */
+}
+.container .images .sign-in-img{
+    margin-left: -35rem;
+}
+@media  (max-width:750px) {
+    .container .images {
+        display: none;
+    }
+    .images>img {
+        width: 0;
+    }
+    .container{
+        justify-content: center;
+        margin-top: 25rem;
+    }
+    .controls {
+        right: 10%;
+    }
+}
+@media screen  and (max-width:400px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        background-size: 100% 20%;
+    }
+    .container {
+        margin-top: 30rem;
+    }
+}
