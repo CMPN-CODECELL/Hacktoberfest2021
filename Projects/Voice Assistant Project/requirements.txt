@@ -1,0 +1,10 @@
+pyAudio==0.2.11
+pyttsx3==2.71
+requests==2.21.0
+speechRecognition==3.8.1
+urllib3==1.24.3
+wikipedia==1.4.0
+wolframalpha==3.0.1
+ecapture==0.10.0
+pywin32
+opencv-python
