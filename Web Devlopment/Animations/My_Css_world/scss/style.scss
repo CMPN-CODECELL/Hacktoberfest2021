@@ -1,0 +1,61 @@
+@import 'modules/fonts';
+@import 'modules/colors';
+@import 'modules/buttons';
+@import 'modules/all';
+
+*{
+  @include all;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $creamWhite;
+}
+h1{
+  font-size: 4em;
+  position: relative;
+  font-family: $typewriter;
+  width: max-content;
+}
+p{
+  font-size: 2em;
+  position: relative;
+  font-family: $deafultfont;
+  font-weight: 200;
+}
+h1::before,
+h1::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+ h1::before{
+   background: $creamWhite;
+   animation: typewriter 7s steps(18) forwards;
+ }
+h1::after{
+  width: 0.11em;
+  background: $black;
+  animation: typewriter 7s steps(18) forwards, blink 0.2s ease infinite;
+}
+.redirect{
+  @include btn;
+}
+@keyframes typewriter{
+  to{
+    left: 100%
+  }
+}
+@keyframes blink{
+  to{
+    opacity: 0;
+  }
+  from{
+    opacity: 1;
+  }
+}
