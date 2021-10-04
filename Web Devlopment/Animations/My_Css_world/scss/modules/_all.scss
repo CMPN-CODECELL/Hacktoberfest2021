@@ -1,0 +1,7 @@
+@mixin all {
+  box-sizing: border-box;
+  text-decoration: none;
+  scrollbar-width: thin;
+  font-family: $deafultfont;
+  scrollbar-color: #ffb905 #081621;
+}
