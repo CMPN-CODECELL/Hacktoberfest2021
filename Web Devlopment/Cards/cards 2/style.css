@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px red solid; */
+}
+
+:root {
+}
+
+/* General Styling */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  /* padding-top: 2rem; */
+  max-width: 1300px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 4rem;
+}
+
+.card img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+  flex-basis: 30%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card p {
+  font-size: 1.6rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.card-content {
+  padding: 2rem 2rem 3rem 2.5rem;
+}
+
+.card .btn {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  color: white;
+  padding: 6px 17px;
+  border-radius: 27px;
+  font-size: 1.6rem;
+  background-color: #6b01ff;
+}
+
+.card .btn:hover {
+  background-color: #4a00b2;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    padding-top: 3rem;
+  }
+
+  .card {
+    display: flex;
+    margin-bottom: 5rem;
+  }
+
+  .card img {
+    margin: 0;
+    min-width: 41%;
+    min-height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card img {
+    margin: 0;
+    min-width: 46%;
+    min-height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    display: block;
+  }
+
+  .card img {
+    border-radius: 10px 10px 0px 0px;
+  }
+}
