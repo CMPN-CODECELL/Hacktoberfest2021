@@ -3,4 +3,7 @@
     <string name="next">Next</string>
     <string name="share">Share</string>
     <string name="memeimage">memeImage</string>
+    <string name="login">Login</string>
+    <string name="enter_the_email">Enter the email</string>
+    <string name="enter_the_password">Enter the password</string>
 </resources>
