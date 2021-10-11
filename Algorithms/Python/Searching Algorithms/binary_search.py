@@ -14,8 +14,8 @@ def binary_search(n,arr,ele):
         index : index of element if found else -1.
     """
     left = 0
-    right = n
-    while left<right:
+    right = n-1
+    while left<=right:
         mid = left + int((right-left)/2)
         if arr[mid] == ele:
             return mid
