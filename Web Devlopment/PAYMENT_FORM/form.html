@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+        <div class="k1">
+        <h1 class="main">PAYMENT FORM</h1>
+        <p >Please Fill in your information </p>
+    </div>
+<hr>
+<div class="k2">
+        <h2>User Information  </h2>
+
+        <p>Name: <input type="text" name="name" id="name"></p>
+       
+        <p>
+        <fieldset>
+            <legend>Gender:<legend>
+        <p>Male <input type="radio" name="Gender" id="male"></p>
+        <p>Female <input type="radio" name="Gender" id="female"></p>
+        </fieldset>
+    </p> 
+        <p>Address:</p>
+        <textarea name="address" id="address" cols="150" rows="10">
+        </textarea>
+
+        <p>Email: <input type="email" name="email" id="email"></p>
+
+        <p>Pincode <input type="number" name="code" id="code"></p>
+    </div>
+        <h2>Payment Details</h2>
+
+        <p>Card Type:
+            <select name="card_type" id="card_type">
+                <option value="---Select a type---">---Select a type---</option>
+                <option value="Net banking">Net banking</option>
+                <option value="Debit card / Visa card">Debit card / Visa card</option>
+                <option value="Paypal">Paypal</option>
+                <option value="Credit Card">Credit Card</option>
+                <option value="RuPay">RuPay</option>
+            </select> 
+        </p>
+
+        <p>Card Number: <input type="number" name="card_nu" id="card_nu"></p>
+
+        <p>Expiration Date: <input type="date" name="date" id="date"></p>
+
+        <p>CVV: <input type="password" name="cvv" id="cvv"></p>
+
+        <input type="submit"  value="Pay Now"
+    
+
+    </form>
+</div>
+</body>
+</html>
