@@ -24,8 +24,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 
     
-    server.login('yashmali256597@gmail.com', 'Yash@2565')
-    server.sendmail('yash.mali20@vit.edu', to, content)
+    server.login('sender_id', 'sender_password')
+    server.sendmail('receiver_emailid', to, content)
     server.quit()
 
 if __name__ == "__main__":
