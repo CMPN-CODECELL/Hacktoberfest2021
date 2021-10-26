@@ -1,0 +1,22 @@
+.registration-form{
+    width: 35vw;
+    margin: auto;
+    background: lightblue;
+    padding: 32px;
+    margin-bottom: 32px;
+    border-radius: 20px;;
+}
+
+.registration-form h3{
+    color: rgb(10, 84, 109);
+    text-align: center;
+    font-weight: bolder;
+}
+
+#form-register{
+    background-color: rgb(10, 84, 109);
+    padding: 8% 0;
+}
+.error{
+    color: rgb(10, 84, 109);
+}
