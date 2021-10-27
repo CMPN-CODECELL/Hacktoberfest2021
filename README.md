@@ -43,3 +43,11 @@ Make 4 valid Pull requests in the month of October to be elligible for a limited
 ### If this repository helped you in anyway, please leave a star :star: on our repository :blush:
 
 ## Hall of Fame 
+
+<!-- Copy-paste in your Readme.md file -->
+
+<a href = "https://github.com/CMPN-CODECELL/Hacktoberfest2021">
+  <img src = "https://contrib.rocks/image?repo = CMPN-CODECELL/Hacktoberfest2021"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
