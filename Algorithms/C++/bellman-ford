@@ -1,0 +1,73 @@
+//Bellman ford algorithm
+
+#include<bits/stdc++.h>
+using namespace std;
+
+//negative weighted graph
+//perform relaxation to every edge for v-1 times in a particular order
+vector<int> bellman_ford(int V,int src,vector<vector<int>> edges) {
+
+	vector<int> dist(V+1,INT_MAX);
+	dist[src]=0;
+
+	for(int i=0;i<V-1;i++) {
+
+		for(auto edge : edges) {
+			int u=edge[0];
+			int v=edge[1];
+			int w=edge[2];
+
+			//relaxation
+			if(dist[u]!=INT_MAX and dist[u]+w < dist[v]) {
+				dist[v]=dist[u]+w;
+			}
+
+ 		}
+
+	}
+
+	//check for negative cycle (as it may cause infinite loop)
+ 	//if at Vth iteration the distances changes that means there's negative cycle present
+
+	for(auto edge : edges) {
+			int u=edge[0];
+			int v=edge[1];
+			int w=edge[2];
+
+			//relaxation
+			if(dist[u]!=INT_MAX and dist[u]+w < dist[v]) {
+				cout<<"Negatve cycle found !"<<endl;
+				return dist;
+			}
+	}
+
+	return dist;
+}
+
+int main()
+{
+	int t;
+	cin>>t;
+	while(t--) {
+		int n,m;
+		cin>>n>>m;
+		vector<vector<int>> edges;
+		vector<int> distances;
+		for(int i=0;i<m;i++) {
+			int u,v,w;
+			cin>>u>>v>>w;
+			edges.push_back({u,v,w});
+		}
+
+		distances = bellman_ford(n,1,edges);
+
+		for(int i=1;i<=n;i++) {
+			cout<<i<<"-->"<<distances[i]<<endl;
+		}
+
+
+	}
+
+
+	return 0;
+}
