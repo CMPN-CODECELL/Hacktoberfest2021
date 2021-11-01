@@ -12,6 +12,10 @@
 
 # Hacktoberfest 2021
 
+Thank you all those who contributed to this repository. Hope you enjoyed participating in Hacktoberfest'2021. 🙌\
+All the best for your future open source journey! 👍\
+This repository is now archived.
+
 ![banner-dark](https://user-images.githubusercontent.com/76769697/135612006-c154ebf3-93d7-45ad-8222-d8bcf5f85b7c.png)
 
 ## :wave:
